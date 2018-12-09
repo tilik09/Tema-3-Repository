@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+  <servlet>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>com.myfirstmaven.test.HelloMaven.HelloWorld</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/hello/*</url-pattern>
+  </servlet-mapping>
+</web-app>
